@@ -122,10 +122,18 @@ button[type="submit"] {
 }
 
 body {
-  background-image: url('logo-l2dalma.png');
+  background-image: url('logo-l2dalma-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
   background-attachment: fixed;
   background-color: #0a0a23;
+}
+
+body {
+  background-image: url('logo-l2dalma-bg.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center center;
+  background-attachment: fixed;
 }
