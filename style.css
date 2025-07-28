@@ -67,3 +67,56 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+
+.logo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Animações visuais */
+.fade-in {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.discord-btn {
+  display: inline-block;
+  background-color: #7289da;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.discord-btn:hover {
+  background-color: #5b6eae;
+}
+
+input, textarea {
+  width: 90%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
